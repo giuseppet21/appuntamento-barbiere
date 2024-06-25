@@ -1,0 +1,144 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.emagister.it/blog/wp-content/uploads/2018/05/ThinkstockPhotos-506514086.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1.6;
+    color: #fff; /* Colore del testo bianco */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(235, 10, 10); /* Colore di sfondo con trasparenza */
+    padding: 10px ;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff; /* Testo bianco */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #fff; /* Testo bianco */
+
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Testo bianco */
+}
+
+.servizio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.servizio img {
+    max-width: 40px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.servizio h3 {
+    color: #fff; /* Testo bianco */
+   
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Colore di sfondo con trasparenza */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(224, 2, 2);
+    color: rgb(13, 12, 12); /* Testo nero nel form */
+    
+}
+
+form label, form input, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #c41c1c;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #fb0000;
+}
+
+footer {
+    background-color: rgb(255, 1, 1); /* Colore di sfondo con trasparenza */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #fff; /* Testo bianco */
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color:rgb(31, 29, 29); /* Colore al passaggio del mouse */
+}

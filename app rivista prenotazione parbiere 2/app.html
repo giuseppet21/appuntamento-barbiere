@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbiere</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Benvenuto dal barbiere </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Servizi</a></li>
+                    <li><a href="#booking">Prenotazione</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="home">
+            <h2>Il nostro Barbiere</h2>
+            <p>Offriamo i migliori servizi per la cura dei tuoi capelli e della tua barba.</p>
+        </section>
+        
+        <section id="booking">
+            <h2>Prenota un appuntamento</h2>
+            <form id="bookingForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefono:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Ora:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <button type="submit">Prenota</button>
+            </form>
+        </section>
+        <footer>
+            <p>Seguici sui nostri social</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2024 Barbiere. Tutti i diritti riservati.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
